@@ -1,0 +1,15 @@
+times = ('Palmeiras', 'Flamengo', 'Corinthians', 'Cruzeiro', 'São Paulo',
+         'Santos', 'Fluminense', 'Vasco', 'Grêmio', 'Internacional')
+#for t in times:
+    #print(t)
+print('-=-' * 30)
+print(f'Lista de times: {times}')
+print('-=-' * 30)
+print(f'Os 5 primeiros colocados: {times[0:5]}')
+print('-=-' * 30)
+print(f'Os últimos 4 colocados: {times[-4:]}')
+print('-=-' * 30)
+print(f'Em ordem alfabética: {sorted(times)}')
+print('-=-' * 30)
+print(f'Em que posição está o Corinthians: {times.index('Corinthians') + 1}')
+print('-=-' * 30)
