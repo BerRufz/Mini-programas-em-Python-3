@@ -6,7 +6,7 @@ time = []
 
 soma = 0
 while True:
-    futebol.clear() #NOVO
+    futebol.clear()
     futebol['Nome'] = str(input('Nome do jogador: '))
     partidas = int(input(f'Quantas partidas {futebol["Nome"]} jogou? '))
     galera.clear()
@@ -19,7 +19,7 @@ while True:
             galera.append(gols)
         futebol['Gols'] = galera[:]
         futebol['Totgols'] = sum(galera)
-        time.append(futebol.copy()) #NOVO
+        time.append(futebol.copy())
     while True:
         resp = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
         if resp in 'SN':
